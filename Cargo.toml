@@ -6,4 +6,7 @@ edition = "2021"
 [dependencies]
 actix-cors = "0.7.0"
 actix-web = "4.8.0"
+mongodb = "2.8.2"
+serde = { version = "1.0.203", features = ["derive"] }
 tokio = { version = "1.38.0", features = ["full"] }
+uuid = { version = "1.8.0", features = ["v4"] }
